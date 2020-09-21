@@ -543,7 +543,7 @@ de_DE:
     invited: Sie wurden zur Teilnahme eingeladen
     recording_present: "Ich bestätige, dass diese Sitzung aufgezeichnet wird. Dies kann meine Sprach- und Videoaufnahmen beinhalten, wenn diese geteilt werden."
     invite_participants: Teilnehmer einladen
-    join: Teilnehmen & Datenschutz akzeptieren
+    join: Teilnehmen & Akzeptieren
     last_session: "Letzte Konferenz am %{session}"
     login: Betreten
     owner: Initiator
@@ -573,14 +573,14 @@ de_DE:
     remove_shared_access_error: Beim Entfernen des geteilten Raums von der Raumliste ist ein Fehler aufgetreten
     shared_access_success: Raum erfolgreich geteilt
     shared_access_error: Beim Teilen des Raums ist ein Fehler aufgetreten
-    start: Starten & Datenschutz akzeptieren
+    start: Starten
     unavailable: "Der Raum ist aktuell nicht verfügbar, weil die E-Mail des Rauminitiators noch nicht verifiziert wurde."
     update_settings_error: Bei der Aktualisierung der Raumeinstellungen ist ein Fehler aufgetreten.
     update_settings_success: Raumeinstellungen erfolgreich aktualisiert
     wait:
       message: Die Konferenz hat noch nicht begonnen.
       auto: "Sie treten der Konferenz automatisch bei, sobald sie begonnen hat."
-    privacy_policy: "Damit Sie an einer Sitzung teilnehmen können, müssen wir einige personenbezogene Daten verarbeiten. Welche Daten wir genau verarbeiten, können Sie ${link} nachlesen."
+    privacy_policy: "Damit Sie an einer Sitzung teilnehmen können, müssen wir einige personenbezogene Daten verarbeiten. Welche Daten wir genau verarbeiten, können Sie in der %{link} nachlesen."
   settings:
     account:
       fullname: Vollständiger Name
