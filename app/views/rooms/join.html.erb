@@ -33,6 +33,9 @@
     <% end %>
   <% else %>
     <%= form_for room_path(@room), method: :post do |f| %>
+      <% if privpolicy_url.present? %>
+        <p><%= t("room.privacy_policy", link: link_to(t("privpolicy.title"), privpolicy_url, target: "_blank")).html_safe %></p>
+      <% end %>
       <div class="input-group">
         <%= f.hidden_field(:search, :value => params[:search])%>
         <%= f.hidden_field(:column, :value => params[:column])%>
@@ -42,7 +45,7 @@
             class: "form-control join-form",
             placeholder: t("enter_your_name"),
             value: "#{@name}",
-            readonly: !current_user.nil?, 
+            readonly: !current_user.nil?,
             autofocus: true
             %>
         <span class="input-group-append">
