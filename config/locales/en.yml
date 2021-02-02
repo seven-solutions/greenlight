@@ -69,6 +69,10 @@ en:
         regular: Regular
         lighten: Lighten
         darken: Darken
+      email_mapping:
+        info: Map the user to a role using their email. Must be in the format email1=role1,email2=role2
+        title: Role Mapping by Email
+        update:
       log_level:
         title: Log Level
         information: Change the Log Level for the entire deployment
@@ -111,6 +115,7 @@ en:
       tabs:
         appearance: Appearance
         administration: Administration
+        registration: Registration
         settings: Settings
       title: Site Settings
     flash:
@@ -133,8 +138,10 @@ en:
       settings: Site Settings successfully changed
       unauthorized: You are not authorized to perform actions on this user
     recordings:
+      latest: Latest Recordings
       title: Server Recordings
       no_recordings: This server has no recordings.
+      search_info: Enter a user's full email or a room's uid
     roles:
       appear_in_share_list: Include users with this role in the dropdown for sharing rooms
       can_create_rooms: Can create rooms
@@ -473,6 +480,7 @@ en:
     office365: Office 365
     twitter: Twitter
     ldap: LDAP
+    openid_connect: OpenID Connect
   recaptcha:
     errors:
       recaptcha_unreachable: Oops, we failed to validate your reCAPTCHA response. Please try again.
@@ -519,6 +527,7 @@ en:
   remove: Remove
   rename: Rename
   reset_password:
+    captcha: reCAPTCHA verification failed, please try again.
     invalid_token: Password reset token is invalid. Please try resetting your password again.
     subtitle: Reset Password
     password: New Password
@@ -580,6 +589,7 @@ en:
     shared_access_success: Room shared successfully
     shared_access_error: There was an error sharing the room
     start: Start & Accept
+    search: Search for room…
     unavailable: This room is currently unavailable due to the owner's email not being verified.
     update_settings_error: There was an error updating the room settings
     update_settings_success: Room settings successfully updated
@@ -589,7 +599,7 @@ en:
     privacy_policy: "In order for you to be able to join this session, we need to process some personal data. You can read about which data we process in our ${link}."
   settings:
     account:
-      fullname: Full name
+      fullname: Full Name
       language: Language
       provider: Provider
       image: Image
